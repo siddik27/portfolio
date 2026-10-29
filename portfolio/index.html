@@ -6,12 +6,21 @@
     <title>MyPortfolio</title>
     <link rel="stylesheet" href="style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Exo+2:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet">
+      <link href="https://cdnfonts.com" rel="stylesheet">
+
 <script src="script.js"></script>
 </head>
 <body>
+    <header>
     <nav class="navbar">
         <div class="brand">
         <div class="logo"><img src="./resource/logo.png" alt="logo" height="50px" width="90px"></div>
@@ -21,13 +30,13 @@
                          <span class="hover-indicator"></span>
                 <ul class="navLinks" id="navLinks">
                 
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
                     
                 </ul>
              
@@ -39,6 +48,187 @@
             
         
     </nav>
+    </header>
+
+<!--home page-->
+    <section class="hero-section" id="home">
+        <div class="home-page">
+            <div class="current-pos">
+        <div class="current-role"><h3 >Now: Frontend development intern at Chipi Technologies</h3></div>        
+        
+    <span id="time-span">Kolkata, West Bengal, India</span>
+    <span class="separator">·</span>
+    <span id="dtText"></span></div>
+           
+        <div class="text-group">
+            <h1><span class="hi-span">Hi</span>, it's <br><span class="name-span">MD SIDDIK RAHAMAN SA</span></h1>
+            <h3 class="typing-text">Aspiring Software Developer</h3>
+            <p class="text">I build responsive web experiences and enjoy solving problems through code. <br>Currently strengthening my skills in Java, Spring Boot, and web development --<br> while building projects that turn ideas into reality.</p>
+        </div>
+            
+        
+
+        <div class="buttons-grp">
+            <button class="btn-view">View my work</button>
+            <button class="btn-contact">Contact me</button>
+            <button class="btn-resume">Resume</button>
+        </div>
+
+</div>
+    </section>
+
+
+<!-- ABOUT SECTION -->
+<section id="about" class="page-section">
+    <h2>About Me</h2>
+    <div class="about-container">
+    <div class="about-pri">
+    <h1>More than just a <br>
+        <span>developer</span>
+    </h1>
+    <p>
+        I'm Siddik, a Bachelor of Computer Applications student passionate about turning ideas into real-world applications.
+        My interests lie in software development, Java, Spring Boot, and frontend development.
+        I believe every project is an opportunity to learn, experiment, and build something meaningful. I'm focused on strengthening my skills and creating practical solutions that make a difference.
+    </p>
+
+    <div class="details">
+        <div class="info-box" id="info-box1">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <p class="p1">Bachelor of Computer Applications</p>
+            <p class="p2">Aliah University</p>
+        </div>
+        <div class="info-box" id="info-box2">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="p1">kolkata, India</p>
+            <p class="p2">based in</p>
+        </div >
+        <div class="info-box" id="info-box3">
+            <i class="fa-regular fa-calendar-days"></i>
+            <p class="p1">Expected 2027</p>
+            <p class="p2">UnderGraduate</p>
+        </div>
+    </div>
+
+    </div>
+    <!--
+    <div class="about-sec">
+        <h3>What i enjoy</h3>
+        <ul class="enjoy-list">
+            <li>Web Development</li>
+            <li>Problem Solving</li>
+            <li>Design & Creativity</li>
+            <li>Exploring Technologies</li>
+            <li>Building Real Projects</li>
+        </ul>
+    </div>
+-->
+    <div class="image">
+        <img src="../portfolio/resource/myimage.jpg" alt="siddik Image" style="border-radius: 25px">
+    </div>
+
+    </div>
+
+    <h3 id="quote">"Turning curiosity into meaningful technology"</h3>
+</section>
+
+<!-- SKILLS SECTION -->
+<section id="skills" class="page-section">
+    <h2>My Skills</h2>
+    <h1>Technologies I work with</h1>
+    <p>Tools and Technologies I use to build and develop applications </p>
+    <div class="skills-list">
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java logo">
+            <span>Java</span>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" alt="Spring logo">
+            <span>Spring Boot</span>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5 logo">
+            <span>HTML5</span>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3 logo">
+            <span>CSS3</span>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript logo">
+            <span>JavaScript</span>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL logo">
+            <span>MySQL</span>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git logo">
+            <span>Git</span>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub logo">
+            <span>GitHub</span>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="Linux logo">
+            <span>Linux</span>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="Postman logo">
+            <span>Postman</span>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap logo">
+            <span>Bootstrap</span>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python logo">
+            <span>Python</span>
+        </div>
+        
+
+
+    </div>
+</section>
+
+<!-- EXPERIENCE SECTION -->
+<section id="experience" class="page-section">
+    <h2>Experience</h2>
+    <h3>Frontend Development Intern</h3>
+    <p>Chipi Technologies</p>
+    <p>Add your responsibilities and achievements here.</p>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects" class="page-section">
+    <h2>My Projects</h2>
+    <div class="project-card">
+        <h3>Hospital Management System</h3>
+        <p>Built using Java, Swing, and MySQL.</p>
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="page-section">
+    <h2>Contact Me</h2>
+    <p>Interested in working together? Let's connect.</p>
+    <a href="mailto:your-email@example.com">Email Me</a>
+</section>
+
+
+
 
 <script>
 
@@ -50,6 +240,18 @@ function toggleMenu() {
     menuList.classList.toggle("menu-open");
 }
 
+
+//setting time
+var today = new Date();
+
+var time = today.toLocaleTimeString("en-IN", {
+    timeZone: "Asia/Kolkata",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false
+});
+
+document.getElementById("dtText").innerHTML = time + " IST";
 
     </script>
 <script src="https://kit.fontawesome.com/62b32d8522.js" crossorigin="anonymous"></script>
