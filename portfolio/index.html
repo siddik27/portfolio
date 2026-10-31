@@ -35,7 +35,7 @@
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#resume">Resume</a></li>
+                <li><a href="https://drive.google.com/file/d/1Zc_5Eb5tMFz-GKjuG3bBUc_yhQfTKZM2/view?usp=sharing" target="_blank">Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
                     
                 </ul>
@@ -69,9 +69,9 @@
         
 
         <div class="buttons-grp">
-            <button class="btn-view">View my work</button>
-            <button class="btn-contact">Contact me</button>
-            <button class="btn-resume">Resume</button>
+            <button class="btn-view" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">View my work</button>
+            <button class="btn-contact" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Contact me</button>
+            <button class="btn-resume" onclick="window.open('https://drive.google.com/file/d/1Zc_5Eb5tMFz-GKjuG3bBUc_yhQfTKZM2/view?usp=sharing', '_blank')">Resume</button>
         </div>
 
 </div>
@@ -124,7 +124,7 @@
     </div>
 -->
     <div class="image">
-        <img src="../portfolio/resource/myimage.jpg" alt="siddik Image" style="border-radius: 25px">
+        <img src="./resource/siddik.png" alt="siddik Image" style="border-radius: 25px">
     </div>
 
     </div>
@@ -135,70 +135,82 @@
 <!-- SKILLS SECTION -->
 <section id="skills" class="page-section">
     <h2>My Skills</h2>
-    <h1>Technologies I work with</h1>
+    <h1><span>Technologies</span> I work with</h1>
     <p>Tools and Technologies I use to build and develop applications </p>
-    <div class="skills-list">
-        <div class="skill-card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java logo">
-            <span>Java</span>
-        </div>
+   
+<div class="skills-list">
 
-        <div class="skill-card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" alt="Spring logo">
-            <span>Spring Boot</span>
-        </div>
+    <div class="skill-card">
+        <img src="./resource/skillsLogos/java.svg" alt="Java">
+        <span>Java</span>
+    </div>
 
-        <div class="skill-card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5 logo">
-            <span>HTML5</span>
-        </div>
+    <div class="skill-card">
+        <img src="./resource/skillsLogos/spring.svg" alt="Spring Boot">
+        <span>Spring Boot</span>
+    </div>
 
-        <div class="skill-card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3 logo">
-            <span>CSS3</span>
-        </div>
+    <div class="skill-card">
+        <img src="./resource/skillsLogos/html5-original.svg" alt="HTML5">
+        <span>HTML5</span>
+    </div>
 
-        <div class="skill-card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript logo">
-            <span>JavaScript</span>
-        </div>
+    <div class="skill-card">
+        <img src="./resource/skillsLogos/css3.svg" alt="CSS3">
+        <span>CSS3</span>
+    </div>
 
-        <div class="skill-card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL logo">
-            <span>MySQL</span>
-        </div>
+    <div class="skill-card">
+        <img src="./resource/skillsLogos/javascript-original.svg" alt="JavaScript">
+        <span>JavaScript</span>
+    </div>
 
-        <div class="skill-card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git logo">
-            <span>Git</span>
-        </div>
+    <div class="skill-card">
+        <img src="./resource/skillsLogos/mysql-original.svg" alt="MySQL">
+        <span>MySQL</span>
+    </div>
 
-        <div class="skill-card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub logo">
-            <span>GitHub</span>
-        </div>
+    <div class="skill-card">
+        <img src="./resource/skillsLogos/mongodb-original.svg" alt="MongoDB">
+        <span>MongoDB</span>
+    </div>
 
-        <div class="skill-card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="Linux logo">
-            <span>Linux</span>
-        </div>
+    <div class="skill-card">
+        <img src="./resource/skillsLogos/git-original.svg" alt="Git">
+        <span>Git</span>
+    </div>
 
-        <div class="skill-card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="Postman logo">
-            <span>Postman</span>
-        </div>
+    <div class="skill-card">
+        <img src="./resource/skillsLogos/github-light.svg" alt="GitHub">
+        <span>GitHub</span>
+    </div>
 
-        <div class="skill-card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap logo">
-            <span>Bootstrap</span>
-        </div>
+    <div class="skill-card">
+        <img src="./resource/skillsLogos/linux-original.svg" alt="Linux">
+        <span>Linux</span>
+    </div>
 
-        <div class="skill-card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python logo">
-            <span>Python</span>
-        </div>
-        
+    <div class="skill-card">
+        <img src="./resource/skillsLogos/postman-original.svg" alt="Postman">
+        <span>Postman</span>
+    </div>
 
+    <div class="skill-card">
+        <img src="./resource/skillsLogos/bootstrap-original.svg" alt="Bootstrap">
+        <span>Bootstrap</span>
+    </div>
+
+    <div class="skill-card">
+        <img src="./resource/skillsLogos/python-original.svg" alt="Python">
+        <span>Python</span>
+    </div>
+
+    <div class="skill-card">
+        <img src="./resource/skillsLogos/rest-api.png" alt="REST API">
+        <span>REST APIs</span>
+    </div>
+
+</div>
 
     </div>
 </section>
@@ -206,25 +218,326 @@
 <!-- EXPERIENCE SECTION -->
 <section id="experience" class="page-section">
     <h2>Experience</h2>
-    <h3>Frontend Development Intern</h3>
-    <p>Chipi Technologies</p>
-    <p>Add your responsibilities and achievements here.</p>
+    <h1>Where <span>I've</span> worked</h1>
+    <p>My professional journey and practical experiences</p>
+
+    <div class="experience-item">
+    <div class="timeline">
+        <span class="timeline-dot"></span>
+    </div>
+
+    <div class="exp-card">
+        <span class="exp-type">Internship</span><br>
+        <div class="job-header">
+        <span class="job-role">Frontend Development Intern</span>
+        <span class="job-timing">September 2026 -- Present</span>
+        </div>
+        
+        <div class="com-details">
+        <span class="com-name">Chipi Technologies</span>
+        <span class="address"><address>Kolkata,West Bengal</address></span>
+        </div>
+        <div class="job-content">
+        <ul>
+            <li>Developing responsive web interfaces</li>
+            <li>Working with html, css, JavaScript</li>
+            <li>improving UI and user experiences</li>
+            <li>Developed a personal portfolio website to showcase my technical skills, projects, and professional journey.</li>
+        </ul>
+        </div>
+        <div class="tech-stack">
+        <span>html</span>
+        <span>css</span>
+        <span>JavaScript</span>
+        <span>Git</span>
+        <span>GitHub</span>
+        </div>
+    </div>
+
+</div>
+
+<div class="experience-item">
+    <div class="timeline">
+        <span class="timeline-dot"></span>
+    </div>
+
+    <div class="exp-card">
+        <span class="exp-type">Training</span><br>
+        <div class="job-header">
+        <span class="job-role">Data Analytics Trainee</span>
+        <span class="job-timing">January 2026 -- March 2026</span>
+        </div>
+        
+        <div class="com-details">
+        <span class="com-name" id="training-det">Completed a foundational 
+            data analytics training program conducted at my college through hands-on 
+            sessions and online classes, with support from ITC.</span><br><br>
+        <span class="address"><b>Key Learnings & Practical Work:</b></span>
+        </div>
+        <div class="job-content">
+        <ul>
+            <li>Developed an HR Analytics Dashboard using Power BI.</li>
+            <li>Worked with the Blinkit dataset to analyze business data and identify insights.</li>
+            <li>Gained practical knowledge of Advanced Excel and Power BI.</li>
+            <li>Learned data preprocessing, data visualization, and exploratory data analysis.</li>
+            <li>Practiced transforming raw datasets into meaningful business insights.</li>
+        </ul>
+        <span>Certification: Foundational Data Analytics</span><br>
+        <span>Certified by: NASSCOM Academy</span>
+        </div>
+        <div class="tech-stack">
+        <span>Power BI</span>
+        <span>Advanced Excel </span>
+        <span>Data Visualization</span>
+        <span>Data Preprocessing</span>
+        
+        </div>
+    </div>
+
+</div>
+    
 </section>
 
 <!-- PROJECTS SECTION -->
 <section id="projects" class="page-section">
     <h2>My Projects</h2>
+
+    <div class="Projects">
+        <!--project card 1-->
     <div class="project-card">
-        <h3>Hospital Management System</h3>
-        <p>Built using Java, Swing, and MySQL.</p>
+        <div class="project-img-container">
+        <img src="./resource/hospital.png" alt="proectImage">
+        </div>
+
+        <div class="project-tech">
+            <span>Java</span>
+            <span>Java Swing</span>
+            <span>MySQL</span>
+            <span>JDBC</span>
+        </div>
+
+        <div class="project-details">
+            <span class="project-name">Hospital Management System</span>
+            <span class="project-des">A desktop-based Hospital Management System developed 
+                using Java Swing for the graphical user interface (GUI) and MySQL for database management. 
+                The application streamlines hospital operations, including patient records, employee 
+                information, room allocation, department management, patient admissions and discharges, 
+                and ambulance details.</span>
+
+        </div>
+
+        <div class="links">
+            <a href="YOUR_LIVE_URL" target="_blank" class="live-link">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    Live Demo
+                </a>
+
+                <a href="https://github.com/siddik27/Hospital-Management-Desktop-Application.git" target="_blank" class="github-icon">
+                <i class="fa-brands fa-github"></i>
+                 GitHub
+            </a>
+        </div>
+
+
+    </div>
+
+<!--project card 2-->
+<div class="project-card">
+        <div class="project-img-container">
+        <img src="./resource/CitizenApp.png" alt="proectImage">
+        </div>
+
+        <div class="project-tech">
+            <span> React Native</span>
+            <span>JavaScript </span>
+            <span>Flask </span>
+            <span>Firebase </span>
+            <span>YOLO</span>
+        </div>
+
+        <div class="project-details">
+            <span class="project-name">Smart Crowdsourced Civic Issue Reporting System</span>
+            <span class="project-des">A team-based hackathon project designed to simplify civic 
+                issue reporting through a mobile application. I contributed to developing the 
+                Citizen App using React Native, enabling users to report public issues such as 
+                potholes, garbage accumulation, and infrastructure problems. The project also 
+                includes a backend system and a web-based dashboard, developed by another team 
+                member.</span>
+
+        </div>
+
+        <div class="links">
+            <a href="YOUR_LIVE_URL" target="_blank" class="live-link">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    Live Demo
+                </a>
+
+                <a href="YOUR_GITHUB_URL" target="_blank" class="github-icon">
+                <i class="fa-brands fa-github"></i>
+                 GitHub
+            </a>
+        </div>
+
+
+    </div>
+
+    <!--project card 3-->
+<div class="project-card">
+        <div class="project-img-container">
+        <img src="./resource/VibeFlow.png" alt="proectImage">
+        </div>
+
+        <div class="project-tech">
+            <span>Java</span>
+            <span>Android Studio</span>
+            <span>XML</span>
+            <span>Gradle</span>
+        </div>
+
+        <div class="project-details">
+            <span class="project-name">VibeFlow - Music Application</span>
+            <span class="project-des">An easy-to-use offline music player 
+                built with Java and Android Studio. It scans and plays music stored in
+                 the user's local device storage, offering a smooth listening experience 
+                 with customizable dark and light themes and animated music playback visuals.</span>
+
+        </div>
+
+        <div class="links">
+            <a href="YOUR_LIVE_URL" target="_blank" class="live-link">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    Live Demo
+                </a>
+
+                <a href="YOUR_GITHUB_URL" target="_blank" class="github-icon">
+                <i class="fa-brands fa-github"></i>
+                 GitHub
+            </a>
+        </div>
+
+
+    </div>
+
     </div>
 </section>
 
 <!-- CONTACT SECTION -->
 <section id="contact" class="page-section">
-    <h2>Contact Me</h2>
-    <p>Interested in working together? Let's connect.</p>
-    <a href="mailto:your-email@example.com">Email Me</a>
+     <div class="contact-heading">
+        <h2>CONTACT</h2>
+        <h1>Let's Connect</h1>
+        <p>Have an idea or opportunity? Let's discuss it.</p>
+    </div>
+
+    <div class="contact-container">
+
+        <!-- CONTACT INFORMATION -->
+        <div class="contact-info">
+
+            <h3>Let's build something<br>meaningful together.</h3>
+
+            <p>
+                I'm always interested in new projects,
+                creative ideas, and opportunities to grow.
+                Feel free to get in touch!
+            </p>
+
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                    <h4>Email</h4>
+                    <a href="mailto:siddiksa27@gmail.com" target="_blank">
+                       siddiksa27@gmail.com
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                    <h4>Location</h4>
+                    <span>Kolkata, West Bengal, India</span>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <div>
+                    <h4>LinkedIn</h4>
+                    <a href="https://linkedin.com/in/siddik-sa-95789730a" target="_blank">Connect with me</a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+                <div>
+                    <h4>GitHub</h4>
+                    <a href="https://github.com/siddik27" target="_blank">Explore my projects</a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+    <div class="contact-icon">
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+        <div>
+        <h4>Instagram</h4>
+        <a href="https://www.instagram.com/siddik_himself/" target="_blank" rel="noopener noreferrer">
+            Follow me
+            </a>
+        </div>
+        </div>
+
+        </div>
+
+        <!-- CONTACT FORM -->
+        <div class="contact-form">
+
+            <h3>Send me a message</h3>
+            <p>I'll get back to you as soon as possible.</p>
+
+            <form>
+                <div class="input-group">
+                    <label>Your Name</label>
+                    <input type="text" placeholder="eg:Siddik" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Your Email</label>
+                    <input type="email" placeholder="siddik@example.com" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Subject</label>
+                    <input type="text" placeholder="How can I help you?">
+                </div>
+
+                <div class="input-group">
+                    <label>Message</label>
+                    <textarea rows="5"
+                    placeholder="Write your message here..."
+                    required></textarea>
+                </div>
+
+                <button type="submit" class="send-btn">
+                    Send Message
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </form>
+
+        </div>
+
+    </div>
+        
+    
 </section>
 
 
